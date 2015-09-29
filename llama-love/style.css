@@ -5,19 +5,27 @@ p { font-family:helvetica;
 
 h1 {font-family:helvetica-bold;
 	font-size: 20pt;
+	float:right;
 }
 
 h2 {font-family:helvetica;
 	font-size: 10pt;
+	float:right;
 }
 
 #llama1 { margin:25px;
 		  padding:10px;
+		  float: left;
+    		margin: 20px 20px; 
+
 
 }
 
 #llama2 { margin:25px;
 		  padding:10px;
+		  float: left;
+    	margin: 20px 20px; 
+
 
 }
 
