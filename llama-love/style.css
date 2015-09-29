@@ -1,16 +1,19 @@
 p { font-family:helvetica;
-	font-size: 15pt;
-	float:right;
+  font-size: 15pt;
 }
 
+#p1 { float:right;
+  
+  }
+
 h1 {font-family:helvetica-bold;
-	font-size: 20pt;
-	float:right;
+  font-size: 20pt;
+
 }
 
 h2 {font-family:helvetica;
 	font-size: 10pt;
-	float:right;
+
 }
 
 #llama1 { margin:25px;
