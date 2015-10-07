@@ -34,33 +34,53 @@ h1 {
 } 
 
 #logo {  padding-bottom:25px;
-
-}
+       max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 nav {
-    height:50px; 
+    height:70px; 
     color:black;
-    font-family:gotham-bold;
+    text-align:center;
+    font-family:georgia-bold;
+    font-size: 30px;
     text-transform:uppercase;
     border-bottom:5px solid black;
 	border-top:5px solid black;
-	
+
 
 }
 
-nav li { float:left;
+nav li { float: left;
          margin-right:50px;
-         padding-bottom:20px;
+         padding-bottom:50px;
          padding-top:20px; 
+         text-align: center;
+         position: static;
+
 }
 
 article {
         width:40%;
         float:left; 
+}
+
+#catpic { position: relative;
+            left: 70px;
+}
+#catarticle { position: relative;
+            left: 70px;
+
+}
+#catshead {position: relative;
+            left: 70px;
+
 
 }
 
-img {width:50%;}
+img {width:50%;
+      position: static;  }
 
 section {  clear:both;}
 
