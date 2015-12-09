@@ -54,7 +54,7 @@ nav {font-family:montserrat;
 	text-decoration: none;
 	padding-bottom: 20px;
 	padding-left: 5px;
-	
+	 box-shadow: 0px 0px 5px #888888;
 	display:block;
 	position:fixed;
 	top:0;
@@ -67,24 +67,6 @@ nav {font-family:montserrat;
 
 }
 
-#harbor { 
-			padding: 2%;
-			float: left;
-    	}
-
-#midriffs { padding: 2%;
-		
-			float: left;
-    		
-}
-#esteem { 
-			padding: 2%;
-			float: left;
-}
-#vinyl { 
-			padding: 2%;
-			float: left;
-}
 
 
   a{
@@ -108,8 +90,7 @@ nav {font-family:montserrat;
   }
 
 img {
-	width:48%;
-	margin: 5px;
+	padding:10px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -130,7 +111,9 @@ img:hover, img:focus, img:active {
 
 
 .tj{
-	width:100%;
+	margin:0,auto;
+	text-align: center;
 	position:relative;
-	background-color: red:;
+	
 }
+
