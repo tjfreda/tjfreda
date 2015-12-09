@@ -4,7 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, p1, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -117,7 +117,27 @@ img:hover, img:focus, img:active {
 	
 }
 
-h3 { padding-top: 100 px;}
+h3 {font-family:montserrat-bold;
+	font-size: 55pt;
+	color: red;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	position:relative;}
 
-p1 { padding-top: 100 px;}
+h4 {font-family:montserrat;
+	font-size: 12pt;
+	color: gray;
+	margin-right: 50%;
+	margin-left: 40px;
+	padding-bottom: 205px;
+}
+
+h5 {font-family:montserrat;
+	font-size: 10pt;
+	color: gray;
+	margin-right: 50%;
+	margin-left: 40px;
+}
+
 
