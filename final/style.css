@@ -149,3 +149,18 @@ h6 {padding-top: 100px;
 }
 
 
+.vinyl { display: block;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+	margin:0,auto;
+		text-align: center;
+		position:relative;
+		width: 10px;
+		height: 10px;
+		float: left;
+
