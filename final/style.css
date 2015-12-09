@@ -86,11 +86,6 @@ nav {font-family:montserrat;
 			float: left;
 }
 
-img {width:48%;
-	margin: 5px;
-	
-
-  }
 
   a{
   	text-decoration: none;
@@ -113,6 +108,8 @@ img {width:48%;
   }
 
 img {
+	width:48%;
+	margin: 5px;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
