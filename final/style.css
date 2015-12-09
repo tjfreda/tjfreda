@@ -81,7 +81,7 @@ nav {font-family:montserrat;
 			padding: 2%;
 			float: left;
 }
-#vinly { 
+#vinyl { 
 			padding: 2%;
 			float: left;
 }
@@ -129,7 +129,7 @@ img:hover, img:focus, img:active {
 }
 
 
-tj{
+.tj{
 	width:100%;
 	position:relative;
 	background-color: red:;
