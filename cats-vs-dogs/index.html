@@ -2,6 +2,9 @@
 <html>
   <head>
 		    <title> CATS vs. DOGS</title>
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
   </head>
           <link href="stylesheet.css" rel="stylesheet" type="text/css" />
   
@@ -21,11 +24,43 @@
 
   <section>
       <article>
-       <img id="dogpic" src="images/dog.jpg" alt="dog">
+
+
+            <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  
+
+
+<a class="fancybox" rel="group" href="images/dog.jpg"><img src="images/dog.jpg" alt="dog" /></a>
+
+
           <h1>Dogs Have Better Noses</h1>
 	          <p>Dogs can discriminate odors at concentrations nearly 100 million times lower than humans can. The wet nose is essential for determining the direction of the air current containing the smell. Cold receptors in the skin are sensitive to the cooling of the skin by evaporation of the moisture by air currents.</p>
+
+          
+
+
       </article>      
  
+
+
+
+
 
 
       <article>
@@ -34,6 +69,15 @@
 	           <p id="catarticle">Cats are known for their cleanliness, spending many hours licking their coats. The cat's tongue has backwards-facing spines about 500 micrometers long, which are called papillae. These are quite rigid, as they contain keratin. These spines allow cats to groom themselves by licking their fur, with the rows of papillae acting like a hairbrush. </p>
       </article>       
   </section>
+
+
+
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+  </script>
 
   </body>
 
