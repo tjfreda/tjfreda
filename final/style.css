@@ -128,3 +128,9 @@ img:hover, img:focus, img:active {
   transform: scale(1.1);
 }
 
+
+tj{
+	width:100%;
+	position:relative;
+	background-color: red:;
+}
